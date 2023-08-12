@@ -12,8 +12,8 @@ spec:
   project: default
   source:
     chart: kyverno-policies
-    repoURL: https://kubeshop.github.io/helm-charts
-    targetRevision: v2.5.5
+    repoURL: https://kyverno.github.io/kyverno
+    targetRevision: v3.0.3
     helm:
       releaseName: kyverno-policies
       # values: |
