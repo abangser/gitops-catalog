@@ -4,6 +4,8 @@ kind: Application
 metadata:
   name: default-git-dependencies
   namespace: argocd
+  annotations:
+    argocd.argoproj.io/sync-wave: "100"
 spec:
   project: default
   source:
@@ -30,6 +32,8 @@ kind: Application
 metadata:
   name: default-git-resources
   namespace: argocd
+  annotations:
+    argocd.argoproj.io/sync-wave: "100"
 spec:
   project: default
   source:
